@@ -2,13 +2,6 @@
 
 // Note: you will always receive a valid array containing a random assortment of direction letters ('n', 's', 'e', or 'w' only). It will never give you an empty array (that's not a walk, that's standing still!).
 
-// Test cases:
-
-// Test.expect(isValidWalk(['n','s','n','s','n','s','n','s','n','s']), 'should return true');
-// Test.expect(!isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e']), 'should return false');
-// Test.expect(!isValidWalk(['w']), 'should return false');
-// Test.expect(!isValidWalk(['n','n','n','s','n','s','n','s','n','s']), 'should return false');
-
 function isValidWalk(walk) {  
   // For this function, the idea is that in order to get you back to the starting point,
   //   for every direction it gives it must also give you the equal amount in opposite dir

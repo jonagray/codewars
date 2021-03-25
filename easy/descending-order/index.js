@@ -5,11 +5,6 @@
 // Input: 145263 Output: 654321
 // Input: 123456789 Output: 987654321
 
-// Test cases:
-// Test.assertEquals(descendingOrder(0), 0)
-// Test.assertEquals(descendingOrder(1), 1)
-// Test.assertEquals(descendingOrder(123456789), 987654321)
-
 function descendingOrder(n){
   // 1. Convert n to an array with individual numbers
   
